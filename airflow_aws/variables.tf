@@ -20,10 +20,4 @@ variable "key_name" {
 variable "instance_type" {
     type    = "string"
     default = "t3.large"
-    # default = "t3.micro"
 }
-
-
-variable "airflow_username" {}
-
-variable "airflow_password" {}

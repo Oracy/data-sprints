@@ -2,15 +2,6 @@ provider "aws" {
         region = "${var.region}"
 }
 
-data "template_file" "airflow_terraform" {
-    template = "${file("${path.module}/init.sh")}"
-
-    vars {
-        airflow_username = "${var.airflow_username}"
-        airflow_password = "${var.airflow_password}"
-    }
-}
-
 data "template_cloudinit_config" "airflow_terraform" {
     gzip            = true
     base64_encode   = true
