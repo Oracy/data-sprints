@@ -1,0 +1,6 @@
+source/*
+!source/.gitkeep
+to_insert/*
+!to_insert/.gitkeep
+transform/*
+!transform/.gitkeep
