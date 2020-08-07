@@ -23,6 +23,8 @@ A configuração do airflow esta dentro da ec2, e o container rodando, um contai
 
 Para armazenar os dados estou usando o postgres.
 
+Para acessar o airflow link : [Airflow](http://18.234.23.129:8080/admin/?showPaused=True)
+
 O código da dag esta em [data_sprints_dag](./data_sprints_dag)
 
 ## QuickSight
